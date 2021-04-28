@@ -1,0 +1,39 @@
+name: bitcoin_app
+description: A new Flutter project.
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.7.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.2
+  http: ^0.13.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_launcher_icons: ^0.9.0  #flutter pub run flutter_launcher_icons:main
+  flutter_native_splash: ^1.1.5+1 #flutter pub run flutter_native_splash:create
+
+flutter_icons:
+  android: true
+  ios: true
+  remove_alpha_ios: true
+  image_path: "assets/bit-spl.png"
+
+flutter_native_splash:
+  color: "#000000"
+  image: assets/bit-spl.png
+  web: false
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/
+  # fonts:
+  #   - family: Schyler
+  #     fonts:
+  #       - asset: fonts/Schyler-Regular.ttf
